@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="RMS"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RMS"
+        tools:targetApi="31">
+        <activity
+            android:name=".RequestStatusHOD"
+            android:exported="false"
+            android:parentActivityName=".HodHomepage"/>
+        <activity
+            android:name=".Service_team_approval"
+            android:exported="false"
+            android:parentActivityName=".AdminHomepage" />
+        <activity
+            android:name=".AdminComplaintStatus"
+            android:exported="false"
+            android:parentActivityName=".AdminHomepage" />
+        <activity
+            android:name=".View_resources_Admin"
+            android:exported="false"
+            android:parentActivityName=".AdminHomepage" />
+        <activity
+            android:name=".View_resourcesAllocated_Admin"
+            android:exported="false"
+            android:parentActivityName=".AdminHomepage" />
+        <activity
+            android:name=".View_resources_Hod"
+            android:exported="false"
+            android:parentActivityName=".HodHomepage" />
+        <activity
+            android:name=".My_alloted_hod"
+            android:exported="false"
+            android:parentActivityName=".HodHomepage" />
+        <activity
+            android:name=".Signup_page"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceTeam"
+            android:exported="false" />
+        <activity
+            android:name=".View_complaint_ServiceTeam"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceTeamToAdminResponse"
+            android:exported="false"
+            android:parentActivityName=".AdminHomepage" />
+        <activity
+            android:name=".HodComplaintStatus"
+            android:exported="false"
+            android:parentActivityName=".HodHomepage" />
+        <activity
+            android:name=".Furniture_item"
+            android:exported="false"
+            android:parentActivityName=".AdminHomepage" />
+        <activity
+            android:name=".Electric_item"
+            android:exported="false"
+            android:parentActivityName=".AdminHomepage" />
+        <activity
+            android:name=".View_complaint_admin"
+            android:exported="false"
+            android:parentActivityName=".AdminHomepage" />
+        <activity
+            android:name=".Add_resources"
+            android:exported="false"
+            android:parentActivityName=".AdminHomepage" />
+        <activity
+            android:name=".Request_status_admin"
+            android:exported="false"
+            android:parentActivityName=".AdminHomepage" />
+        <activity
+            android:name=".Add_complaint"
+            android:exported="false"
+            android:parentActivityName=".HodHomepage" />
+        <activity
+            android:name=".Request_resource"
+            android:exported="false"
+            android:parentActivityName=".HodHomepage" />
+        <activity
+            android:name=".HodHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHomepage"
+            android:exported="false"
+            android:theme="@style/Theme.sss" />
+        <activity
+            android:name=".Loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".Startpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.sss">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917610457186",
+    "firebase_url": "https://resource-management-c9542-default-rtdb.firebaseio.com",
+    "project_id": "resource-management-c9542",
+    "storage_bucket": "resource-management-c9542.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917610457186:android:ab9e33d33280791f46493b",
+        "android_client_info": {
+          "package_name": "com.example.rms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917610457186-lu5bslkactjcn9os8nllab1o4m02q265.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rms",
+            "certificate_hash": "75b53046ac155fe9cdc2db762e9e721ba4ff671b"
+          }
+        },
+        {
+          "client_id": "917610457186-hckb6p5coesa5i8s86e6t068c65lq3ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQqH3WQhNhw-MoWrY0NQy9jBGpj8OYUSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917610457186-hckb6p5coesa5i8s86e6t068c65lq3ks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

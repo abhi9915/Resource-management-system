@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/response_menu"
+            android:icon="@drawable/baseline_home_repair_service_24"
+            android:title="Service Team Response" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/allocated"
+            android:icon="@drawable/ic_view_resource"
+            android:title="View Allocated Resources">
+
+        </item>
+
+        <item
+            android:id="@+id/complaintStatusAdmin"
+            android:icon="@drawable/ic_view_resource"
+            android:title="Complaint Status">
+
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="Logout">
+
+        </item>
+    </group>
+
+
+</menu>

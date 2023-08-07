@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A8F8C8C"
+    tools:context=".Startpage">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="47dp"
+        android:src="@drawable/ic_login_image_undraw"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonService"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="#00BCD4"
+        android:layout_marginTop="1dp"
+        android:text="Service Team"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHOD"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonHOD"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#00BCD4"
+        android:layout_marginTop="30dp"
+        android:text="HOD"
+        app:layout_constraintBottom_toTopOf="@+id/buttonService"
+        app:layout_constraintEnd_toEndOf="@+id/buttonService"
+        app:layout_constraintStart_toStartOf="@+id/buttonService"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAdmin"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonAdmin"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="281dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Admin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonHOD"
+        app:layout_constraintStart_toStartOf="@+id/buttonHOD"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/logintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/archivo"
+        android:text="Login as"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
